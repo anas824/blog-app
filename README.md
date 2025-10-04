@@ -1,4 +1,4 @@
-# 📦 Project Name
+# 📦 Blog App
 
 _A brief and meaningful tagline or description for your app._
 
