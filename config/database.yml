@@ -1,0 +1,30 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  host: localhost
+  port: 5432
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: blog_app_development
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  host: localhost
+  port: 5432
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: blog_app_test
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  username: blog_app
+  password: <%= ENV['BLOG_APP_DATABASE_PASSWORD'] %>
+  host: localhost
+  port: 5432
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: blog_app_production
