@@ -1,6 +1,6 @@
 # 📦 Blog App
 
-_A brief and meaningful tagline or description for your app._
+_A simple yet powerful blogging platform built with Ruby on Rails — create, edit, and manage posts with ease_
 
 > Example: `Blog App` is a Ruby on Rails web application that allows users to create posts and see each other's posts.
 
