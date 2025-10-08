@@ -20,7 +20,7 @@ _A simple yet powerful blogging platform built with Ruby on Rails — create, ed
 
 - [Ruby](https://www.ruby-lang.org/) `v3.2.0`
 - [Rails](https://rubyonrails.org/) `v6.1.7`
-- [PostgreSQL](https://www.postgresql.org/)
+- [PostgreSQL](https://www.postgresql.org/) `v13.22`
 - [Redis](https://redis.io/)
 - [RVM](https://rvm.io/) (Ruby version manager)
 
